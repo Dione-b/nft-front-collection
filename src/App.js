@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react"
 import "./styles/App.css"
 import twitterLogo from "./assets/twitter-logo.svg"
+import openseaLogo from "./assets/opensea.png"
 import { ethers } from "ethers"
 import myEpicNft from "./utils/MyEpicNFT.json"
 
 // endereço do contrato
-const CONTRACT_ADDRESS = "0xa19DfB2Bf7cbF264D3Cd0317184C7b1a4126952c"
+const CONTRACT_ADDRESS = "0xd14777c6C15774f9d812aa96507551F271700B9a"
 
 // Constants
 const TWITTER_HANDLE = "Diiibastos"
+const OPENSEA_HANDLE = "OpenSea"
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
 const OPENSEA_LINK = `https://testnets.opensea.io/assets/rinkeby/${CONTRACT_ADDRESS}/`
 const TOTAL_MINT_COUNT = 50
@@ -192,6 +194,14 @@ const App = () => {
             target="_blank"
             rel="noreferrer"
           >{`feito com ❤️ por @${TWITTER_HANDLE}`}</a>
+
+          <img alt="Opensea Logo" className="opensea-logo" src={openseaLogo} />
+            <a
+              className="opensea-text"
+              href={OPENSEA_LINK}
+              target="_blank"
+              rel="noreferrer"
+            >{`Disponível em @${OPENSEA_HANDLE}`}</a>
         </div>
       </div>
     </div>
