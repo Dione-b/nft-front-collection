@@ -1,4 +1,4 @@
-# Mint-Hero - Mint Sua Própria Coleção de NFT
+# Mint-Hero - Mint Sua Própria Coleção de NFT, uma coleção On-chain que gera de forma aleatória nomes de personagens da Marvel e alguns vilões.
 
 ### **Bem-vind@s 👋**
 Para testar o código, clone esse repositório e digite os seguintes comandos:
