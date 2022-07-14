@@ -12,7 +12,7 @@ const CONTRACT_ADDRESS = "0xd14777c6C15774f9d812aa96507551F271700B9a"
 const TWITTER_HANDLE = "Diiibastos"
 const OPENSEA_HANDLE = "OpenSea"
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
-const OPENSEA_LINK = `https://testnets.opensea.io/assets/rinkeby/${CONTRACT_ADDRESS}/`
+const OPENSEA_LINK = `https://testnets.opensea.io/collection/marvels-hero-vilain-ubydeiiilk`
 const TOTAL_MINT_COUNT = 50
 
 
